@@ -1,0 +1,76 @@
+body{
+    position:absolute ;
+    background-image:url(/img/vilinha.png);
+    background-size: cover;
+}
+
+.start{
+    position:absolute ;
+    background-image:url(/img/tela.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btnCima{
+    width: 55px;
+    height: 55px;
+    border: 03px solid rgba(72, 137, 163, 0.588);
+    border-radius: 16px;
+    background-color:rgb(186, 214, 240);
+    background-image: url(/img/setaC.png);
+    background-repeat: no-repeat;
+    margin-top: 280%; 
+}
+
+.btnBaixo{
+    width: 55px;
+    height: 55px;
+    border: 03px solid rgb(149, 221, 199);
+    border-radius: 16px;
+    background-color:rgb(186, 240, 224);
+    background-image: url(/img/setaB.png);
+    background-repeat: no-repeat; 
+}
+
+.btnEsquerda{
+    width: 55px;
+    height: 55px;
+    border: 03px solid rgb(236, 145, 191);
+    border-radius: 16px;
+    background-color:rgb(241, 171, 206);
+    background-image: url(/img/setaE.png);
+    background-repeat: no-repeat;
+   
+}
+
+.btnDireita{
+    width: 55px;
+    height: 55px;
+    border: 03px solid rgb(238, 111, 132);
+    border-radius: 16px;
+    background-color:rgb(238, 148, 163);
+    background-image: url(/img/setaD.png);
+    background-repeat: no-repeat;
+}
+
+.start_botao{
+    align-items: center;
+    margin-top: 220%;
+    margin-left: 250%;
+    width: 230px;
+    height: 100px;
+    border: 03px solid  #D2691E;
+    border-radius: 16px;
+    background-color:#DAA520;
+    font-size: 19px;
+    font-family:cursive;
+    font-style:oblique;
+}
+
+#person {
+    position: absolute;
+}
+.pikachu{
+    width: 80px;
+    margin-top: 80px;
+}
